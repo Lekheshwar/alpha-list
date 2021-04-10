@@ -1,10 +1,10 @@
 import Link from 'next/link'
-
+import Image from 'next/image'
 export default function Navbar() {
     return (
         <nav>
             <div className="logo">
-                <h1>Alpha List</h1>
+                <Image src="/logo.png" width={100} height={70}/>
             </div>
 
             <Link href="/">
